@@ -1,0 +1,1260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <title>digest</title>
+</head>
+<body>
+  <!-- Top Navigation Bar -->
+  <header class="container">
+    <nav class="topnav">
+      <h1>
+        <a href="index.html" class="active">
+          <img src="images/logo.png" alt="Logo" class="logo">
+          digest
+        </a>
+      </h1>
+      <ul id="myLinks">
+        <li><a href="index.html">home</a></li>
+        <li><a href="courses.html">courses</a></li>
+        <li><a href="coaching.html">coaching</a></li>
+        <li><a href="about.html">about</a></li>
+        <li><a href="contact.html">contact</a></li>
+      </ul>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </nav>
+  </header>
+
+  <!-- Main Section -->
+  <main>
+    <!-- 1st section: about the website -->
+    <section class="about">
+      <img src="images/elearning.png" alt="book on a computer" class="main1">
+      <div class="title">
+        <h2>Lifestyle Learning</h2>
+        <p class="subtitle">Kickstart your health journey with our 
+          quick and informative courses, taking only
+          5 minutes to complete. Learn about one of 
+          the 5 pillars of health and gain practical
+          tools to build small, achievable habits 
+          that support your overall well-being.
+          </p>
+      </div>
+    </section>
+
+    <!-- Physical Health -->
+    <h2 class="section">Physical Health</h2>
+    <section class="el-section" id="physical">
+          <div class="kontext-box">
+            <div class="pillar"><img src="images/p-movement.png" alt="movement"></div>
+            <button class="kontext-box__button">Movement</button>
+            <div class="kontext-box__popup">
+                <div id="accordion">
+            <h3>Importance of Movement</h3>
+                <div>
+                    <p>
+                      Individuals of all ages should have regular activity to maintain good health.
+                      There are various benefits to movement, such as improving cardiovascular health, weight management,
+                      decreasing risk of chornic diseases, promoting mental well-being, and an increase in energy. Regular activity
+                      can also improve sleep quality and the quality of your life. 
+                    </p>
+                </div>
+            <h3>CDC Recommendations</h3>
+                <div>
+                    <p>
+                      The CDC recommends that adults aim for at least 150 minutes of moderate-intensity 
+                      aerobic activity or 75 minutes of vigorous-intensity aerobic activity each week.
+                      Additionally, it is advised to incorporate muscle-strengthening activities at least two days a week.
+                    </p>
+                </div>
+                <h3>Strategies</h3>
+                <div>
+                        <ul>
+                          <li>Schedule physical activity into your daily routine. </li>
+                          <li>Choose activities that you enjoy. </li>
+                          <li>Incorporate incidental physical activity, such as taking the stairs instead of the 
+                            elevator or walking instead of driving short distances. </li>
+                          <li>Take regular movement breaks throughout the day.</li>
+                          <li>Find a workout buddy or join a group exercise class to add a layer of accountability.</li>
+                        </ul>
+                    </div>
+            <h3>Knowledge Check</h3>
+                    <div>
+                    <p>
+                    How many minutes of moderate-intensity aerobic activity should an adult get eaach week?
+                    </p>
+                        <ol id="selectable" class="selectable">
+                            <li class="ui-widget-content">75 minutes</li>
+                            <li class="ui-widget-content ui-selected" id="correct">150 minutes</li>
+                            <li class="ui-widget-content">60 minutes</li>
+                            <li class="ui-widget-content">2 hours</li>
+                            </ol>
+                    </div>
+</div></div>
+</div>
+
+          <div class="kontext-box">
+            <div class="pillar"><img src="images/p-whole foods.png" alt="whole foods"></div>
+            <button class="kontext-box__button">Nutrition</button>
+            <div class="kontext-box__popup">
+                <div id="accordion">
+                  <h3>Basics of Nutrition</h3>
+                  <div>
+                      <p>
+                        Nutriont plays a key role in our health and well-being. A blance diet full of nutrients, vitamins, 
+                        and minerals help keep our bodies functions. Focusing on balance and making informed choices is essential to a healthy
+                        diet.
+                      </p>
+                  </div>
+              <h3>Incorporate Whole Foods</h3>
+                  <div>
+                      <p>
+                        Whole foods are unprocessed foods that have their natural nutrients, fiber, and antioxidants. Consuming whole
+                        grains over highly processed foods promote digestion and nutrient absorption. Since they are lower in added sugars,
+                        unhealthy fats, and sodium, incorporating whole foods into your diet can help manage weight, reduce risk of chronic diseases
+                        and enhance overall vitality. 
+                      </p>
+                  </div>
+                  <h3>Strategies</h3>
+                  <div>
+                          <ul>
+                            <li>Prioritize fresh fruits and vegetables, whole grains, legumes, nuts, and seeds in your meals and snacks.</li>
+                            <li>Opt for lean proteins like poultry, fish, and plant-based sources like beans and tofu. </li>
+                            <li>Minimize the consumption of processed foods, sugary beverages, and unhealthy fats. </li>
+                            <li>Meal planning and prep to incorporate more whole foods in your diet.</li>
+                            <li>Read food labels and look for sugar, sodium, and unhealthy fat content.</li>
+                            <li>Mix up your meals with new recipes!</li>
+                          </ul>
+                      </div>
+            <h3>Knowledge Check</h3>
+                    <div>
+                    <p>
+                    What do whole grains NOT do when incoproated into your diet? 
+                    </p>
+                        <ol id="selectable" class="selectable">
+                            <li class="ui-widget-content">Manage Weight</li>
+                            <li class="ui-widget-content ui-selected">Reduce Risk of Chronic Disease</li>
+                            <li class="ui-widget-content">Enhance Overall Vitality</li>
+                            <li class="ui-widget-content" id="correct">Increase Blood Sugar</li>
+                            </ol>
+                    </div>
+          </div></div>
+          </div>
+
+          <div class="kontext-box">
+            <div class="pillar"><img src="images/p-hydration.png" alt="glass of water"></div>
+            <button class="kontext-box__button">Hydration</button>
+            <div class="kontext-box__popup">
+                <div id="accordion">
+                  <h3>Importance of Hydration</h3>
+                  <div>
+                      <p>
+                        Hydration is essential for overall health, as it plays an vital role in regulating body
+                          temperature, lubricating joings, transporting nutrients, and eliminatin waste. Lack of water consumption, dehyrdration,
+                          can lead to health issues, such as fatigue, headaches, and a decresase and physical performance.
+                      </p>
+                  </div>
+              <h3>Benefits of H20</h3>
+                  <div>
+                      <p>
+                        Hydration has many benefits like promoting healthy digestion, proper organ function, and nutrient absorption. 
+                        Keeping up on your H20 also supports cardivascular health by maintaining blood volume and circulation. Furthermore, hydration
+                        can help reulate body weight, ehnace metabolism, and contribute to health skin.
+                      </p>
+                  </div>
+                  <h3>Strategies</h3>
+                  <div>
+                          <ul>
+                            <li>Drink water regularly throughout the day, aiming for 3.7 liters for men and 2.7 liters for women.</li>
+                            <li>Have a water bottle on hand to help remind you to drink throughout the day.</li>
+                            <li>Incorporate hydrating foods like fruits and veggies. </li>
+                            <li>Limit the consumption of like alcohol, caffeinated drinks, and sugary sodas.</li>
+                            <li>Set reminders during the day to drink water.</li>
+                            <li>Listen to your body's signals of thirst (sometimes it likes to disguise itself as hunger).</li>
+                          </ul>
+                      </div>
+            <h3>Knowledge Check</h3>
+                    <div>
+                    <p>
+                    How can you increase your water consumption throughout the day?
+                    </p>
+                        <ol id="selectable" class="selectable">
+                            <li class="ui-widget-content">Drink only 16 ounces a day.</li>
+                            <li class="ui-widget-content ui-selected">Reduce your consumption of fruits and veggies.</li>
+                            <li class="ui-widget-content" id="correct">Set reminders throughout the day.</li>
+                            <li class="ui-widget-content">Drink more soda and caffeinated drinks.</li>
+                            </ol>
+                    </div>
+          </div></div>
+          </div>
+
+          <div class="kontext-box">
+            <div class="pillar"><img src="images/p-stress.png" alt="stress"></div>
+            <button class="kontext-box__button">Stress</button>
+            <div class="kontext-box__popup">
+                <div id="accordion">
+                  <h3>Introduction to Stress</h3>
+                  <div>
+                      <p>
+                        Stress is a natural response to the demands and pressures we encounter daily. There is acute
+                        and chronic stress, which both can impact phsyical and mental well-being. Signs of stress can include increased heart rate, 
+                        irritability, difficulty concentrating, and more.
+                      </p>
+                  </div>
+              <h3>Impact of Stress</h3>
+                  <div>
+                      <p>
+                        Stress affects various aspects of our health, such as physical health, emotional health, and social health. 
+                        There is also a connection between stress and common health issues that can lead to chronic diseases, including weakened
+                        immune system, lack of sleep, and cardiovascular issues. Stress can also contribute to anxiety, depression, and lifestyle
+                        satisfaction.
+                      </p>
+                  </div>
+                  <h3>Strategies</h3>
+                  <div>
+                          <ul>
+                            <li>Be mindful of what is causing stress in your life.</li>
+                            <li>Learn stress reduction techniques like breathwork, meditation, and exercise.</li>
+                            <li>Understand the importance and how nutrition, sleep, self-care, and social support can impact stress. </li>
+                            <li>Identify coping mechanisms that work for you, such as social support, time management, and setting SMART goals.</li>
+                            <li>Ensure you incorporate stress management practices into your daily life to help promote resilience and well-being.</li>
+                          </ul>
+                      </div>
+            <h3>Knowledge Check</h3>
+                    <div>
+                    <p>
+                    What is NOT a negative impact of stress?
+                    </p>
+                        <ol id="selectable" class="selectable">
+                            <li class="ui-widget-content">Increased Heart Rate </li>
+                            <li class="ui-widget-content ui-selected" id="correct">Better Sleep</li>
+                            <li class="ui-widget-content">Weakened Immune System</li>
+                            <li class="ui-widget-content">Cardiovascular Issues</li>
+                            </ol>
+                    </div>
+          </div></div>
+          </div>
+
+         <div class="kontext-box">
+            <div class="pillar"><img src="images/p-sleep.png" alt="sleep"></div>
+            <button class="kontext-box__button">Sleep</button>
+            <div class="kontext-box__popup">
+                <div id="accordion">
+                  <h3>Introduction to Sleep</h3>
+                  <div>
+                      <p>
+                        Sleep plays a vital role in our physical and mental well-being. There are different
+                        stages of sleep that have specific functions, such as REM and non-REM sleep. Having
+                        a consistent sleep schedule can impact circadian rhythms. 
+                      </p>
+                  </div>
+              <h3>Benefits of Sleep</h3>
+                  <div>
+                      <p>
+                        There are many benefits of sleep for our overall well-being, such as improving cognitive function,
+                        memory consolidation, and learning abilities. A consistent sleep routine can also help regulate mood,
+                        reduce stress, and promote hormonal balance.
+                      </p>
+                  </div>
+                  <h3>Strategies</h3>
+                  <div>
+                          <ul>
+                            <li>Create a space for success by making sure your sleep area is dark, quiet, and comfortable.</li>
+                            <li>Go to bed and wakeup at a consistent time.</li>
+                            <li>Limit the amount of screen time before bed.</li>
+                            <li>Ensure that you are eating whole grains and have a health diet.</li>
+                            <li>Practice relaxtion and stress management techniques to prepare for restful sleep.</li>
+                            <li>Seek professional help if you believe that you may have a sleep disorder.</li>
+                          </ul>
+                      </div>
+            <h3>Knowledge Check</h3>
+                    <div>
+                    <p>
+                    What is a benefit of quality sleep?
+                    </p>
+                        <ol id="selectable" class="selectable">
+                            <li class="ui-widget-content">Hormonal Imbalance</li>
+                            <li class="ui-widget-content ui-selected">Decreased Cognitive Function</li>
+                            <li class="ui-widget-content">Stress</li>
+                            <li class="ui-widget-content" id="correct">Mood Regulation</li>
+                            </ol>
+                    </div>
+          </div></div>
+          </div>
+    </section>
+
+
+     <!-- Mental Health -->
+     <h2 class="section">Mental Health</h2>
+     <section class="el-section">
+      <div class="kontext-box">
+        <div class="pillar"><img src="images/m-stress.png" alt="stress"></div>
+        <button class="kontext-box__button">Stress</button>
+        <div class="kontext-box__popup">
+            <div id="accordion">
+        <h3>Introduction to Stress and Mental Health</h3>
+            <div>
+                <p>
+                  Stress can have physiological and psychological effects on the body.
+                  There is a correlation between chronic stress and common mental health disorders.
+                  Individual should be aware of the signs and symptoms to help manage their stress.
+                </p>
+            </div>
+        <h3>Managing Stress for Mental Well-being</h3>
+            <div>
+                <p>
+                  There are various techniques to help manage and reduce daily stress, such as physical movement
+                  and relaxation techniques. Individuals can relax and promote calmness through breathwork, 
+                  mindfulness, and meditation. Also, physical activity has been proven to reduce stress and boost 
+                  mood. When deciding what technique to utilizie understanding the root cause is essential. Other
+                  techniques like time mangement can help alleviate stress.
+                </p>
+            </div>
+            <h3>Resilience</h3>
+            <div>
+                <p>
+                   Building resilience can help manage stress. To do so, individuals can 
+                   learn to create a positive mindset, practice self-compassion, and rely 
+                   on social support. Setting boundaries is also key when seeking support.
+                </p>
+                </div>
+        <h3>Knowledge Check</h3>
+                <div>
+                <p>
+                What relaxation technique can promote calmness and relaxation?
+                </p>
+                    <ol id="selectable" class="selectable">
+                        <li class="ui-widget-content" id="correct">Breathwork</li>
+                        <li class="ui-widget-content ui-selected"> Vigorous Exercise</li>
+                        <li class="ui-widget-content">Caffeinated Drinks</li>
+                        <li class="ui-widget-content">Overextending yourself</li>
+                        </ol>
+                </div>
+</div></div>
+</div>
+
+      <div class="kontext-box">
+        <div class="pillar"><img src="images/m-regulation.png" alt="emotional regulation"></div>
+        <button class="kontext-box__button">Emotions</button>
+        <div class="kontext-box__popup">
+            <div id="accordion">
+              <h3>Understanding Your Emotions</h3>
+              <div>
+                  <p>
+                    Defining emotions and our purpose is essential for healthy emotional regulation. 
+                    We have a range of emotions with various inensities that can impact our mental health.
+                    When certain emotions go unrelgulated they can have a negative impact.
+                  </p>
+              </div>
+          <h3>Identify and Name Emotions</h3>
+              <div>
+                  <p>
+                    Learning to identify your emotions can be greatly beneficial, and allows individuals to
+                    be more self-aware. When we can recognize our emotions we can also start to
+                    acknowledge them. Developing a vocabularly of the various emotions is essential in identifying
+                    how someone feels.
+                  </p>
+              </div>
+              <h3>Strategies</h3>
+              <div>
+                      <ul>
+                        <li>Create a vocabulary of the various emotions you experience.</li>
+                        <li>Learn coping mechanisms to help regulate your emotions, such as breathwork, meditation, and mindfulness. </li>
+                        <li>Reframe negative thoughts into positive ones. </li>
+                        <li>Incorporate self-care activities, such as journaling, social support, and hobbies you enjoy.</li>
+                      </ul>
+                  </div>
+        <h3>Knowledge Check</h3>
+                <div>
+                <p>
+                Which technique can help regulate and manage emotions?
+                </p>
+                    <ol id="selectable" class="selectable">
+                        <li class="ui-widget-content">Supressing Your Emotions</li>
+                        <li class="ui-widget-content ui-selected">Distracting with Unhealthy Coping Activities</li>
+                        <li class="ui-widget-content">Avoid Social Support</li>
+                        <li class="ui-widget-content" id="correct">Breathwork and Mindfulness</li>
+                        </ol>
+                </div>
+      </div></div>
+      </div>
+
+      <div class="kontext-box">
+        <div class="pillar"><img src="images/m-sleep.png" alt="sleep"></div>
+        <button class="kontext-box__button">Sleep</button>
+        <div class="kontext-box__popup">
+            <div id="accordion">
+              <h3>Benefits of Sleep</h3>
+              <div>
+                  <p>
+                    Sleep is essential for mental well-being. A health sleep schedule can promote memory consolidation and 
+                    emotional regulation. Unhealthy sleep habits and sleep deprivation can lead ot individuals
+                    feeling anxious and even depressed.
+                  </p>
+              </div>
+          <h3>Sleep Disorders</h3>
+              <div>
+                  <p>
+                    There are sleep disorders that may require professional help, such as sleep 
+                    apnea, narcolepsy, and insomnia. Understanding the signs of these sleep disorders
+                    is important especially if you struggle to get restful night's sleep. If you do believe,
+                    that you have one of these disorders reach out to a health professional.
+                  </p>
+              </div>
+              <h3>Strategies</h3>
+              <div>
+                      <ul>
+                        <li>Establish a consistent sleep routine.</li>
+                        <li>Set yourself up for success with the right sleep environment: cold, dark, and quiet.</li>
+                        <li>Explore relaxation techniques, such as breathwork, mindfulness, and meditation.</li>
+                        <li>Incorporate regular exercise into your routine to improve the quality of your sleep.</li>
+                        <li>Track any symptoms or signs that you feel are uncommon.</li>
+                      </ul>
+                  </div>
+        <h3>Knowledge Check</h3>
+                <div>
+                <p>
+                How does sleep impact mental health?
+                </p>
+                    <ol id="selectable" class="selectable">
+                        <li class="ui-widget-content">Sleep does not impact mental health.</li>
+                        <li class="ui-widget-content ui-selected">Lack of sleep has no correlation to mental well-being.</li>
+                        <li class="ui-widget-content" id="correct">Sleep quality can have an impact on your mental health.</li>
+                        <li class="ui-widget-content">Excessive sleep can worsen your well-being.</li>
+                        </ol>
+                </div>
+      </div></div>
+      </div>
+
+      <div class="kontext-box">
+        <div class="pillar"><img src="images/m-anxiety.png" alt="disorders"></div>
+        <button class="kontext-box__button">Disorders</button>
+        <div class="kontext-box__popup">
+            <div id="accordion">
+              <h3>Mental Disorders</h3>
+              <div>
+                  <p>
+                    Mental disorders like anxiety and depression can have a great impact on mental health.
+                    Anxiety and depression have a high prevalence, and early identification can help with 
+                    intervention and improved outcomes. Individuals should understand the risk and warning signs, such as 
+                    increased/decreased appetite, excessive sleeping, racing thoughts, and elevated mood.
+                  </p>
+              </div>
+          <h3>Managing Stress and Anxiety</h3>
+              <div>
+                  <p>
+                    Seeking professional help is essential when it comes to interventions for anxiety and depression.
+                    Many of them do promote evidence-based strategies, such as CBT and DBT. Relaxation techniques, like
+                    mindfulness and breathwork can also alleviate symptoms. However, seeking professional help and 
+                    building a support network is important.
+                  </p>
+              </div>
+              <h3>Promote Mental Well-being</h3>
+              <div>
+                      <ul>
+                        <li>Be aware of the signs and symptoms of anxiety and depression.</li>
+                        <li>Make self-care and stress management important aspects of your daily routine.</li>
+                        <li>Collect a variety of coping mechanisms that can manage and prevent mental disorders.</li>
+                        <li>Show empathy, understanding, and create a supportive environment for others that struggle.</li>
+                      </ul>
+                  </div>
+        <h3>Knowledge Check</h3>
+                <div>
+                <p>
+                What is NOT a common symptom for depression and anxiety?
+                </p>
+                    <ol id="selectable" class="selectable">
+                        <li class="ui-widget-content">Excessive Sleeping </li>
+                        <li class="ui-widget-content">Overly Friendly</li>
+                        <li class="ui-widget-content">Racing Thoughts</li>
+                        <li class="ui-widget-content" id="correct">Change in Appetite</li>
+                        </ol>
+                </div>
+      </div></div>
+      </div>
+
+     <div class="kontext-box">
+        <div class="pillar"><img src="images/m-resilience.png" alt="Building Resilience"></div>
+        <button class="kontext-box__button">Resilience</button>
+        <div class="kontext-box__popup">
+            <div id="accordion">
+              <h3>Introduction to Resilience</h3>
+              <div>
+                  <p>
+                    Building resilience is essential for mental health. Resilience is the ability to 
+                    quickly recover and get back into the game after experiencing something difficult. Factors
+                    that promote resilience are: emotional intelligence, regulation of negative emotions, coping
+                    mechanisms, and ability to learn and reflect.
+                  </p>
+              </div>
+          <h3>Build Resilience</h3>
+              <div>
+                  <p>
+                    As mentioned earlier, resilience is a skill that can be built over time. Emotional awareness,
+                    positive coping skils, prioritizing self-care, and creating a strong social support can help. 
+                  </p>
+              </div>
+              <h3>Strategies</h3>
+              <div>
+                      <ul>
+                        <li>Take 5-10 minutes for daily self-care.</li>
+                        <li>Plan time with friends and create a space for open communication.</li>
+                        <li>Practice asking for help.</li>
+                        <li>Try mindfulness, breathwork, and meditation.</li>
+                      </ul>
+                  </div>
+        <h3>Knowledge Check</h3>
+                <div>
+                <p>
+                What is an effective strategy for building resilience?
+                </p>
+                    <ol id="selectable" class="selectable">
+                        <li class="ui-widget-content">Avoiding All Stress</li>
+                        <li class="ui-widget-content ui-selected">Ignore Negative Emotions</li>
+                        <li class="ui-widget-content" id="correct">Develop Emotional Awareness</li>
+                        <li class="ui-widget-content">Rely Only on Social Support</li>
+                        </ol>
+                </div>
+      </div></div>
+      </div>
+</section>
+
+
+<!-- Emotional Health -->
+<h2 class="section">Emotional Health</h2>
+<section class="el-section">
+ <div class="kontext-box">
+   <div class="pillar"><img src="images/e-self-awareness.png" alt="self-awarenss"></div>
+   <button class="kontext-box__button">Awareness</button>
+   <div class="kontext-box__popup">
+       <div id="accordion">
+   <h3>Introduction to Emotional Health and Self-awareness</h3>
+       <div>
+           <p>
+             Emotional health is about how we think and feel. There is a close connection between 
+             emotional health and our overall well-being. Common sings of good emotional health 
+             are teh ability to talk to someone about your feelings, saying "no" and not feeling guilty, 
+             and having a strong social support network.
+           </p>
+       </div>
+   <h3>Self-awareness</h3>
+       <div>
+           <p>
+             Self-awareness is the ability to self-rflect and practice introspection; furthermore, it's 
+             the ability to recognize and understand one's emotions. There are many benefits of self-awareness 
+             such as improved relationships, job satisfaction, improved communication, better relationships, and more.
+           </p>
+       </div>
+       <h3>Strategies</h3>
+       <div>
+        <ul>
+          <li>Seek professional help to create habits that promote self-awareness.</li>
+          <li>Journal and keep notes on yourself.</li>
+          <li>Be open to change and listen to feedback.</li>
+          <li>Identify habits that may be holding you back.</li>
+          <li>Ask social support for help!</li>
+          </ul>
+           </div>
+   <h3>Knowledge Check</h3>
+           <div>
+           <p>
+           What is the primary benefit of self-awareness on emotional health?
+           </p>
+               <ol id="selectable" class="selectable">
+                   <li class="ui-widget-content">Increased ability to supress emotions.</li>
+                   <li class="ui-widget-content ui-selected" id="correct">Enhanced understanding of personal values and beliefs.</li>
+                   <li class="ui-widget-content">Elimnation of all stress.</li>
+                   <li class="ui-widget-content">Improved physical health.</li>
+                   </ol>
+           </div>
+</div></div>
+</div>
+
+ <div class="kontext-box">
+   <div class="pillar"><img src="images/e-self-esteem.png" alt="self-esteem"></div>
+   <button class="kontext-box__button">Self-esteem</button>
+   <div class="kontext-box__popup">
+       <div id="accordion">
+         <h3>Understanding Self-Esteem</h3>
+         <div>
+             <p>
+               Self-esteem is how we percieve ourselves, which is often hard to change. Although, a positive self-esteem 
+               is important because it impacts our relationships, motivation, and gives us insight on how we may feel
+               when we tackle a challenge.
+         </div>
+     <h3>Self-Acceptance and Inner Confidence</h3>
+         <div>
+             <p>
+              To improve self-esteem individuals should embrace all their strenths and weaknesses, as well as challenge
+              any persistne negative thoughts they experience. Once we can create more positive self-talk, confidence can
+              be built upon our pseronal strengths.
+             </p>
+         </div>
+         <h3>Strategies</h3>
+         <div>
+                 <ul>
+                   <li>Step out of your comfort zone and try something new.</li>
+                   <li>Celebrate your accomplishments. </li>
+                   <li>Set realistic goals for personal growth. </li>
+                   <li>Practice self-compassion by reframing the negative thoughts.</li>
+                 </ul>
+             </div>
+   <h3>Knowledge Check</h3>
+           <div>
+           <p>
+           What is an effective strategy for building self-esteem?
+           </p>
+               <ol id="selectable" class="selectable">
+                   <li class="ui-widget-content" id="correct">Practice self-compassion</li>
+                   <li class="ui-widget-content ui-selected">Compare yourself to others</li>
+                   <li class="ui-widget-content">Constantly seek validation</li>
+                   <li class="ui-widget-content" >Set unrealistic goals</li>
+                   </ol>
+           </div>
+ </div></div>
+ </div>
+
+ <div class="kontext-box">
+   <div class="pillar"><img src="images/e-relationships.png" alt="relationship bulding"></div>
+   <button class="kontext-box__button">Relationships</button>
+   <div class="kontext-box__popup">
+       <div id="accordion">
+         <h3>Importance of Relationships</h3>
+         <div>
+             <p>
+               Relationships play an essential role in our lives, and our social support system can have a huge 
+               impact on our overall well-being, happiness, and personal growth. Understanding the importance of
+               relationships and how to build healthy ones can help create a foundation for strong connections.
+             </p>
+         </div>
+     <h3>Communication</h3>
+         <div>
+             <p>
+               Communication is a major factor for a successful realtionship. Communication includes active listening,
+               expressing your thoughts clearly, and showing empathy. Also, communication can also support successful
+               conflict resolution when there are challenges in relationships. Often this results in deeper connections.
+             </p>
+         </div>
+         <h3>Trust and Boundaries</h3>
+         <div>
+             <p>
+                Trust is a foundation to a strong relationship. With trust there is also the need for boundaries.
+                When building these in a relationship, consistency, transparency, empathy, and proving integrity are 
+                essential. By building solid relationships we can positively impact our mental well-being.
+             </p>
+             </div>
+   <h3>Knowledge Check</h3>
+           <div>
+           <p>
+           What is not a factor in building trust and boundaries?
+           </p>
+               <ol id="selectable" class="selectable">
+                   <li class="ui-widget-content">Consistency</li>
+                   <li class="ui-widget-content ui-selected">Transparency</li>
+                   <li class="ui-widget-content" id="correct">Normalcy</li>
+                   <li class="ui-widget-content">Empathy</li>
+                   </ol>
+           </div>
+ </div></div>
+ </div>
+
+ <div class="kontext-box">
+   <div class="pillar"><img src="images/e-stress.png" alt="stress management"></div>
+   <button class="kontext-box__button">Stress</button>
+   <div class="kontext-box__popup">
+       <div id="accordion">
+         <h3>Introduction to Stress</h3>
+         <div>
+             <p>
+               Stress can impact our physical, mental, and emotional well-being. Common causes of stress are work, relationships, 
+               finances, and major life events. From these common causes people can experience acute or chronic stress. Acute stress 
+               is usually short-term, while chronic stress is ongoing for an extended period. Recognizing the signs of stress and having self-awareness 
+               can help people combat it. 
+             </p>
+         </div>
+     <h3>Managing Stress</h3>
+         <div>
+             <p>
+               Stress can be managed through time management, healthy lifestyle habits, and building reslience. It is important
+               to identify healthy coping mechanisms as stress can increase the liklihood of developing a chronic
+               diesease.
+             </p>
+         </div>
+         <h3>Strategies</h3>
+         <div>
+                 <ul>
+                   <li>Reframe negative thoughts and keep a positive mindset.</li>
+                   <li>Develop self-awareness to identify and handle the stressors.</li>
+                   <li>Build a social support network that can help when things are stressful</li>
+                   <li>Reach out for professional help when needed.</li>
+                 </ul>
+             </div>
+   <h3>Knowledge Check</h3>
+           <div>
+           <p>
+           What is NOT a common cause of stress?
+           </p>
+               <ol id="selectable" class="selectable">
+                   <li class="ui-widget-content">Work </li>
+                   <li class="ui-widget-content ui-selected">Relationships</li>
+                   <li class="ui-widget-content">Finances</li>
+                   <li class="ui-widget-content" id="correct">Dancing</li>
+                   </ol>
+           </div>
+ </div></div>
+ </div>
+
+<div class="kontext-box">
+   <div class="pillar"><img src="images/e-gratitude.png" alt="Gratitude and positivity"></div>
+   <button class="kontext-box__button">Gratitude</button>
+   <div class="kontext-box__popup">
+       <div id="accordion">
+         <h3>Introduction to Gratitude and Positivity</h3>
+         <div>
+             <p>
+               Gratitude is the acknolwegement and appreciation for the positive and negative aspects of life.
+               Showing gratitude can realease feel-good hormones, improve our emotional well being and ehance relationships.
+               The ability to practice positivity and gratitude allows us to see challenges as opportunities, promting a growth mindset.
+
+             </p>
+         </div>
+     <h3>Role of Self-Compassion</h3>
+         <div>
+             <p>
+               Self-compassion is an important aspect of gratitude and our emotional well-being. Practicing self-compassion 
+               means treating yourself with kindness even when things become challenging. This is important when it comes to
+               one's personal well-being.
+             </p>
+         </div>
+         <h3>Strategies</h3>
+         <div>
+                 <ul>
+                   <li>Take 5-10 minutes for daily self-care.</li>
+                   <li>Foster a positive relationship with yourself.</li>
+                   <li>Reframe negative thoughts into positive ones.</li>
+                   <li>Take a moment in your day to appreciate the present moment.</li>
+                 </ul>
+             </div>
+   <h3>Knowledge Check</h3>
+           <div>
+           <p>
+           How does self-compassion play a role in gratitude and positivity? 
+           </p>
+               <ol id="selectable" class="selectable">
+                   <li class="ui-widget-content">Allows you to be hard on yourself</li>
+                   <li class="ui-widget-content ui-selected">Gives you the ability to have negative thoughts</li>
+                   <li class="ui-widget-content" id="correct">Allows you to treat yourself with kindness with things are difficult</li>
+                   <li class="ui-widget-content">Creates a negative headspace</li>
+                   </ol>
+           </div>
+ </div></div>
+ </div>
+</section>
+
+
+<!-- Social Health -->
+<h2 class="section">Social Health</h2>
+<section class="el-section">
+ <div class="kontext-box">
+   <div class="pillar"><img src="images/s-comms.png" alt="communication"></div>
+   <button class="kontext-box__button">Communication</button>
+   <div class="kontext-box__popup">
+       <div id="accordion">
+   <h3>Understanding Communication</h3>
+       <div>
+           <p>
+             Communication is the foundation of our relationships and social interactions. It involves verbal
+             and nonverbal elements, such as active listening, tone of voice, and expressions. With solid 
+             communication we can improve our ability to make strong connections and resolve conflicts.
+           </p>
+       </div>
+   <h3>Strategies for Communication</h3>
+       <div>
+           <p>
+             There are various factors for effective communication, such as active listening, empathy, calrity,
+             nonverbal communication and feedback. One of the most important is active listening. This involves
+             paying attention to the person who is talking by giving eye contact, reflecting, and not interrupting.
+           </p>
+       </div>
+       <h3>Promoting Social Health</h3>
+       <div>
+          <p>
+            Communication impacts and promotes social health. It allows us to build relationships, actively
+            participate, resolve conflict, set boundaries, and practice self-care.
+          </p>
+           </div>
+   <h3>Knowledge Check</h3>
+           <div>
+           <p>
+           What is a factor of effective communication?
+           </p>
+               <ol id="selectable" class="selectable">
+                   <li class="ui-widget-content">Listening only when it is important</li>
+                   <li class="ui-widget-content ui-selected" id="correct">Active Listening</li>
+                   <li class="ui-widget-content">No eyecontact</li>
+                   <li class="ui-widget-content">Interrupting</li>
+                   </ol>
+           </div>
+</div></div>
+</div>
+
+ <div class="kontext-box">
+   <div class="pillar"><img src="images/s-boundaries.png" alt="Boundaries"></div>
+   <button class="kontext-box__button">Boundaries</button>
+   <div class="kontext-box__popup">
+       <div id="accordion">
+         <h3>Understanding Boundaries</h3>
+         <div>
+             <p>
+              Boundaries are our personal limites and guidelines on how we interact with others. Establishing 
+              boundaries can help promote self-idenity, self-respect, and postiive interactions. The boundaries we
+              set can vary from person to person. Recognizing and respecting them is essential for strong relationships.
+         </div>
+     <h3>Communicating Boundaries</h3>
+         <div>
+             <p>
+             Boundaries must be communicated so that all parties understand. To do so, you first need to refelct on your
+             own needs and what makes you feel secure. Once you decide this, it's important to be lear with the other party
+             and reinforce your boundaries with consistency.
+             </p>
+         </div>
+         <h3>Benefits of Boundaries</h3>
+         <div>
+                 <ul>
+                   <li>Respect</li>
+                   <li>Health Relationships</li>
+                   <li>Promotes personal growth </li>
+                   <li>Reduces resentment</li>
+                 </ul>
+             </div>
+   <h3>Knowledge Check</h3>
+           <div>
+           <p>
+           How can you share your boundaries with others? 
+           </p>
+               <ol id="selectable" class="selectable">
+                   <li class="ui-widget-content">Expect them to know</li>
+                   <li class="ui-widget-content ui-selected">Treat everyone the same so they know</li>
+                   <li class="ui-widget-content" id="correct">Communicate clearly</li>
+                   <li class="ui-widget-content" >Have others tell the person</li>
+                   </ol>
+           </div>
+ </div></div>
+ </div>
+
+ <div class="kontext-box">
+   <div class="pillar"><img src="images/s-empathy.png" alt="empathy and compassion"></div>
+   <button class="kontext-box__button">Empathy</button>
+   <div class="kontext-box__popup">
+       <div id="accordion">
+         <h3>Introduction to Empathy and Compassion</h3>
+         <div>
+             <p>
+               Empathy is one's ability to understand thoughts and feelings of others. This usually involves compassion and 
+               putting yourself in the person's shoes. Similar to communication, empathy involves active listening. It is actually
+               an important aspect to effective communciation.
+             </p>
+         </div>
+     <h3>Cultivate Empathy</h3>
+         <div>
+             <p>
+               There are various ways you can build empathy, such as active listening, validation, and having an open mind. When
+               approaching a converation, we should release any preconceived notions and challenge our own assumptions. This 
+               means refraining from interruptions and immersing yourself in the other person's shoes.
+             </p>
+         </div>
+         <h3>Benefits of Empathy</h3>
+         <div>
+            <ul>
+             <li>Strengthens Relationships</li>
+             <li>Improve conflict resolution</li>
+             <li>Postive impact on emotional well-being</li>
+             <li>Reduces Judgment</li>
+            </ul>
+             </div>
+   <h3>Knowledge Check</h3>
+           <div>
+           <p>
+           What is a way you can cultivate empathy?
+           </p>
+               <ol id="selectable" class="selectable">
+                   <li class="ui-widget-content">Tell the person how you've experienced the same thing</li>
+                   <li class="ui-widget-content ui-selected">Make Asssumptions</li>
+                   <li class="ui-widget-content" id="correct">Active Listening</li>
+                   <li class="ui-widget-content">Trust your inital judgment</li>
+                   </ol>
+           </div>
+ </div></div>
+ </div>
+
+ <div class="kontext-box">
+   <div class="pillar"><img src="images/s-conflict.png" alt="conflict resolution"></div>
+   <button class="kontext-box__button">Conflict</button>
+   <div class="kontext-box__popup">
+       <div id="accordion">
+         <h3>Introduction to Conflict Resolution</h3>
+         <div>
+             <p>
+               Conflict resolution is a part of relationships and our interactions of others. Conflict is usually a 
+               result of differing opinions or interests. While we usually view conflict as a negative, it can be 
+               constructive and help improve relatinships.
+             </p>
+         </div>
+     <h3>Benefits of Conflict Resolution</h3>
+         <div>
+             <p>
+               Conflict resolution has many benefits, such as strengthening relationships, promoting 
+               personal growth, improving communication, and creates positive environments. When 
+               conflict resolution occurs it helps build understanding and trust between individuals and 
+               encourages positive communication.
+             </p>
+         </div>
+         <h3>Strategies</h3>
+         <div>
+                 <ul>
+                   <li>Communicate honestly and openly</li>
+                   <li>Active Listening</li>
+                   <li>Practicing Empathy</li>
+                   <li>Collaborate wit the other person</li>
+                   <li>Seek mediation when needed</li>
+                 </ul>
+             </div>
+   <h3>Knowledge Check</h3>
+           <div>
+           <p>
+           What is NOT a strategy for conflict resolution? 
+           </p>
+               <ol id="selectable" class="selectable">
+                   <li class="ui-widget-content">Practice empathy </li>
+                   <li class="ui-widget-content ui-selected">Actively Listen</li>
+                   <li class="ui-widget-content">Communicate openly</li>
+                   <li class="ui-widget-content" id="correct">Explain why you are right</li>
+                   </ol>
+           </div>
+ </div></div>
+ </div>
+
+<div class="kontext-box">
+   <div class="pillar"><img src="images/s-social.png" alt="Social Support"></div>
+   <button class="kontext-box__button">Support</button>
+   <div class="kontext-box__popup">
+       <div id="accordion">
+         <h3>Understanding Social Support</h3>
+         <div>
+             <p>
+               Social support is an indviduals network of relationships. It plays a crucial role in maintaining social health and overall
+               well-being. Social support can be both formal and informal, including professional services as well as friends and family.
+             </p>
+         </div>
+     <h3>Benefits of Social Support</h3>
+         <div>
+             <p>
+               There are various benefits to social support, such as giving people a sense of belonging, increasing
+               resilience, improving health and well-being, and providing resources for coping with difficult times.
+               Supportive relationships can provide motivation and encouragement for people to pursue goals and tackle various
+               challenges.
+             </p>
+         </div>
+         <h3>How to Cultivate Social Support</h3>
+         <div>
+                 <ul>
+                   <li>Actively invest time into relationships</li>
+                   <li>Communicate and maintain openess</li>
+                   <li>Seek support when needed</li>
+                   <li>Diversify your support network</li>
+                 </ul>
+             </div>
+   <h3>Knowledge Check</h3>
+           <div>
+           <p>
+           What is a positive impact of social support?
+           </p>
+               <ol id="selectable" class="selectable">
+                   <li class="ui-widget-content">Shows you can make friends</li>
+                   <li class="ui-widget-content ui-selected">Proves your are popular</li>
+                   <li class="ui-widget-content" id="correct">Provides a sense of belonging</li>
+                   <li class="ui-widget-content">Makes others deal with your problems</li>
+                   </ol>
+           </div>
+ </div></div>
+ </div>
+</section>
+
+
+<!-- Spiritual Health -->
+<h2 class="section">Spiritual Health</h2>
+<section class="el-section">
+ <div class="kontext-box">
+   <div class="pillar"><img src="images/sp-mindfulness.png" alt="Mindfulness"></div>
+   <button class="kontext-box__button">Communication</button>
+   <div class="kontext-box__popup">
+       <div id="accordion">
+   <h3>Communiation and Spirituality</h3>
+       <div>
+           <p>
+             Spirtual health refers to our sense of meatning and purpose. Communication is an essential factor when supporint our spritual health, as
+             it can deepen our experiences and connectednesss. With effective communication we can enhance our
+             ability to express and explore our unique beliefs.
+           </p>
+       </div>
+   <h3>Integrating Communication and Spiritual Health</h3>
+       <div>
+           <p>
+            Individuals can integrate communication in spiritual health by relecting, performing rituals, and 
+            seeking a community or group where one can engage in meaningful conversations. By taking these steps we can 
+            explore our own thougths and emotions which futher support self-awareness.
+            </p>
+       </div>
+       <h3>Strategies </h3>
+       <div>
+        <ul>
+         <li>Practice self-relection</li>
+         <li>Active Listening</li>
+         <li>Participate in Nonjudmental Dialogue with Others</li>
+         <li>Be your authentic self</li>
+         <li>Practice mindfulness</li>
+        </ul>
+           </div>
+   <h3>Knowledge Check</h3>
+           <div>
+           <p>
+           What is a fundamental element of effective communication?
+           </p>
+               <ol id="selectable" class="selectable">
+                   <li class="ui-widget-content">Speaking fast to convey information</li>
+                   <li class="ui-widget-content ui-selected" id="correct">Being an active listener</li>
+                   <li class="ui-widget-content">Dominating the conversation</li>
+                   <li class="ui-widget-content">Using complex and technical terms</li>
+                   </ol>
+           </div>
+</div></div>
+</div>
+
+ <div class="kontext-box">
+   <div class="pillar"><img src="images/sp-gratitude.png" alt="Gratitude"></div>
+   <button class="kontext-box__button">Gratitude</button>
+   <div class="kontext-box__popup">
+       <div id="accordion">
+         <h3>Understanding Gratitude and Spirituality</h3>
+         <div>
+             <p>
+              Gratitude is an apprecition of the good and bad in our lives, while spirtuality refers to our connection 
+              to something greater. They are both intertwined because gratitude can deepen our spiritual well-being and
+              overall health.
+             </p>
+         </div>
+     <h3>Practicing Gratitude</h3>
+         <div>
+             <p>
+             Gratitude can be practiced through many different forms: a gratitude journal, mindful moments,
+             creating a gratitude rituals, and expressing gratitude toward others. Taking the time to reflect
+             on challenges can allow us to find areas that we are grateful for. Therefore, it helps shift our perspective.
+             </p>
+         </div>
+         <h3>Benefits of Gratitude</h3>
+         <div>
+                 <ul>
+                   <li>Deepened Connections</li>
+                   <li>Enhanced Mindfulness</li>
+                   <li>Improved Resilience </li>
+                   <li>Spiritual Growth</li>
+                 </ul>
+             </div>
+        <h3>Knowledge Check</h3>
+             <div>
+             <p>
+             Which of the following is a potential benefit of practicing gratitude for spiritual health?
+             </p>
+                 <ol id="selectable" class="selectable">
+                     <li class="ui-widget-content">Increased stress and anxiety</li>
+                     <li class="ui-widget-content ui-selected" id="correct">Enhanced minfulness and presence</li>
+                     <li class="ui-widget-content">Weakened spiritual connection</li>
+                     <li class="ui-widget-content">Reduced sense of purpose and menaing</li>
+                     </ol>
+             </div>
+ </div></div>
+ </div>
+
+ <div class="kontext-box">
+   <div class="pillar"><img src="images/sp-purpose.png" alt="Purpose and meaning"></div>
+   <button class="kontext-box__button">Purpose</button>
+   <div class="kontext-box__popup">
+       <div id="accordion">
+         <h3>Introduction to Purpose and Meaning</h3>
+         <div>
+             <p>
+               Purpose means our sense of direction, while meaning relates to the value we attach to our existence.
+               Both play an essential role in our spiritual health as the provide a sense of connection and alignment
+               to our beliefs.
+             </p>
+         </div>
+     <h3>Cultivate Purpose and Meaning</h3>
+         <div>
+             <p>
+               You can cultivate purpose and meaing by practicing self-reflection, aligning actions with values, and 
+               finding ways to contribute to something greater than yourself. When viewing challenges as 
+               opportunities, we can grow, learn, and gain a deeper understanind of our meaning.
+             </p>
+         </div>
+         <h3>Benefits of Purpose and Meaning for Spiritual Health</h3>
+         <div>
+          <ul>
+             <li>Enhanced Well-being</li>
+             <li>Resilience</li>
+             <li>Authenticity and aligning values with goals</li>
+             <li>Sense of contribution</li>
+          </ul>
+             </div>
+   <h3>Knowledge Check</h3>
+           <div>
+           <p>
+           What is a benefit of cultivating purpose and meaning for spiritual health?
+           </p>
+               <ol id="selectable" class="selectable">
+                   <li class="ui-widget-content">Decreased overall well-being</li>
+                   <li class="ui-widget-content ui-selected">Weakened personal values</li>
+                   <li class="ui-widget-content" id="correct">Enhanced resilience</li>
+                   <li class="ui-widget-content">Reduced sense of connection</li>
+                   </ol>
+           </div>
+ </div></div>
+ </div>
+
+ <div class="kontext-box">
+   <div class="pillar"><img src="images/sp-forgiveness.png" alt="Forgiveness"></div>
+   <button class="kontext-box__button">Forgiveness</button>
+   <div class="kontext-box__popup">
+       <div id="accordion">
+         <h3>Introduction to Forgiveness</h3>
+         <div>
+             <p>
+               Forgiveness is the process of letting go resentment. The process involves releasing
+               negative emotions and instead practicing empathy and compassion. Forgiveness benefits the forgiver 
+               and the forgiven. As a result, it can provide inner peace and healing.
+             </p>
+         </div>
+     <h3>Practice Forgiveness</h3>
+         <div>
+             <p>
+              There are various ways you can practice forgiveness, such as self-reflection, practicing empathy, 
+              letting go of the negative, and commmunication. Also, engaging in practices like meditation or jounaling 
+              can help heal emotional wounds.
+             </p>
+         </div>
+         <h3>Benefits of Forgiveness for Spiritual Health</h3>
+         <div>
+                 <ul>
+                   <li>Inner Peace</li>
+                   <li>Emotional Healing</li>
+                   <li>Connection and Compassion</li>
+                   <li>Spiritual Growth</li>
+                   <li>Liberation and Freedom</li>
+                 </ul>
+             </div>
+   <h3>Knowledge Check</h3>
+           <div>
+           <p>
+           What is a potential beneift of practicing forgiveness for spiritual health?
+           </p>
+               <ol id="selectable" class="selectable">
+                   <li class="ui-widget-content">Holding onto anger and resentment</li>
+                   <li class="ui-widget-content ui-selected">Strengthening negative emotions</li>
+                   <li class="ui-widget-content">Deepening sense of separation from others</li>
+                   <li class="ui-widget-content" id="correct">Facilitating healing and inner peace</li>
+                   </ol>
+           </div>
+ </div></div>
+ </div>
+
+<div class="kontext-box">
+   <div class="pillar"><img src="images/sp-nature.png" alt="connection to nature"></div>
+   <button class="kontext-box__button">Nature</button>
+   <div class="kontext-box__popup">
+       <div id="accordion">
+         <h3>Understanding the Connection to Nature</h3>
+         <div>
+             <p>
+             Humans have a natural connection to the natural world. Nature provides a source of inspiration and a sense 
+             of something greater than ourselves. Having a deep connection to nature can have a huge impact
+             on our spiritual well-being.
+             </p>
+         </div>
+     <h3>Benefits of Connection to Nature for Spiritual Health</h3>
+         <div>
+             <p>
+              Connecting to nature can provide a sense of belinging, deepen our spirituality, promote environmental
+              stewardship, and provide inner peace. Spending time in nature can be relaxing and rejuvenating. As 
+              a result it allows us to connect with our authentic selves.
+             </p>
+         </div>
+         <h3>Strategies to Deepen Connection to Nature</h3>
+         <div>
+                 <ul>
+                   <li>Engage in mindful practices</li>
+                   <li>Go on natures walks and explore</li>
+                   <li>Participate in nature rituals</li>
+                   <li>Try nature-based meditation</li>
+                 </ul>
+             </div>
+   <h3>Knowledge Check</h3>
+           <div>
+           <p>
+           What is one potential benefit of nuturing a connection to nature?
+           </p>
+               <ol id="selectable" class="selectable">
+                   <li class="ui-widget-content">Increased isolation and disconnection</li>
+                   <li class="ui-widget-content ui-selected">Heightened stress and anxiety</li>
+                   <li class="ui-widget-content" id="correct">Ehanced sense of belonging</li>
+                   <li class="ui-widget-content">Decreased appreciation for the natural world</li>
+                   </ol>
+           </div>
+ </div></div>
+ </div>
+</section>
+</main>
+
+  <!-- Footer with Contact -->
+  <footer>
+    <div class="footerinfo">
+      <article>
+        <h3>Site</h3>
+        <ul class="footr">
+          <li><a href="index.html" class="footr">Home</a></li>
+          <li><a href="about.html" class="footr">About Digest</a></li>
+          <li><a href="courses.html" class="footr">Courses</a></li>
+          <li><a href="coaching.html" class="footr">Coaching</a></li>
+          <li><a href="contact.html" class="footr">Contact</a></li>
+        </ul>
+      </article>
+      <article>
+        <h3>Contact</h3>
+        <ul class="footr">
+          <li><a href="mailto:madelinehirschfeld@gmail.com" class="footr">support@digest.com</a></li>
+          <li><a href="tel:+13179180538" class="footr">(317) 918-0539</a></li>
+        </ul>
+      </article>
+    </div>
+    <div class="copyright">
+      <p>Hirsch Designs &copy;</p>
+    </div>
+  </footer>
+
+  <!-- JS Script -->
+  <script src="script.js"></script>
+  <script src="yes.js"></script>
+</body>
+
+</html>
